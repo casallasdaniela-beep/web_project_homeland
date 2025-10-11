@@ -1,0 +1,21 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/Lead/Lead.css");
+@import url("../blocks/Header/Header.css");
+@import url("../blocks/Intro/Intro.css");
+@import url("../blocks/Places/Places.css");
+@import url("../blocks/Cover/Cover.css");
+@import url("../blocks/Footer/Footer.css");
+
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2c2f;
+  min-height: 100vh;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
