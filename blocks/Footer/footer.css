@@ -1,15 +1,10 @@
 .footer {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
-  width: 194;
-  height: 16;
-  opacity: 1;
-  top: 1968px;
-  left: 543px;
   color: #fff;
   margin-top: auto;
   padding: 24px 0;
