@@ -45,7 +45,6 @@
 }
 
 /* ===== TABLET 768px ===== */
-
 @media screen and (max-width: 1024px) {
   .intro {
     width: 720px;
