@@ -7,15 +7,4 @@
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/footer/footer.css");
 
-.page {
-  margin: 0;
-  padding: 0;
-  background-color: #2a2c2f;
-  min-height: 100vh;
-  font-family: "Inter", Arial, sans-serif;
-}
 
-.content {
-  margin: 0;
-  padding: 0;
-}
