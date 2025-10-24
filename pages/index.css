@@ -1,3 +1,10 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/photo-grid.css");
 @import url("../blocks/places.css");
 @import url("../blocks/place.css");
 @import url("../blocks/place__title.css");
@@ -8,3 +15,5 @@
 @import url("../blocks/place__artist-description.css");
 @import url("../blocks/place__paragraph.css");
 @import url("../blocks/place__button.css");
+@import url("../blocks/cover.css");
+@import url("../blocks/footer.css");
