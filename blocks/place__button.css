@@ -1,0 +1,42 @@
+.place__button {
+  display: inline-block;
+  width: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to bottom, #0278fe, #003a7b);
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  grid-column: 1;
+  grid-row: 3;
+  align-self: start;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.place__button:hover {
+  background: linear-gradient(to bottom, #0063d2, #002f63);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 1024px) {
+  .place__button {
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__button {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: calc(100% - 32px);
+    width: auto;
+    margin: 0 16px;
+    align-self: start;
+  }
+}
