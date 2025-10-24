@@ -1,11 +1,10 @@
 /* ===== DESKTOP 1280px ===== */
 
 .intro {
-  max-width: 984px; /* Mismo ancho que el lead */
+  max-width: 984px; 
   margin: 0 auto 148px;
   color: #fff;
-  box-sizing: border-box; /* IMPORTANTE: incluye padding en el ancho */
-}
+  box-sizing: border-box; 
 
 .intro__title {
   font-family: "Inter", Arial, sans-serif;
@@ -13,7 +12,7 @@
   font-size: 54px;
   line-height: 58px;
   margin: 0 0 40px 0;
-  max-width: 690px; /* Limita el ancho del título */
+  max-width: 690px; 
 }
 
 .intro__quote-text {
@@ -78,7 +77,7 @@
 @media screen and (max-width: 544px) {
   .intro {
     width: 288px;
-    margin: 0 auto 0 16px; /* left: 16px según Figma */
+    margin: 0 auto 0 16px; 
     padding: 64px 0;
   }
 

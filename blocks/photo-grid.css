@@ -1,0 +1,26 @@
+/* ===== DESKTOP 1280px ===== */
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto 92px;
+}
+
+.photo-grid__image {
+  width: 100%;
+  display: block;
+}
+
+/* ===== TABLET 768px ===== */
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 720px;
+    margin: 0 auto 88px;
+  }
+}
+
+/* ===== MOBILE 320px ===== */
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    max-width: 288px;
+    margin: 0 auto 64px;
+  }
+}
